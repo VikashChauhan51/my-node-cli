@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "lib": ["es2015"],
+      "module": "commonjs",
+      "outDir": "bin",
+      "rootDir": "src",
+      "sourceMap": true,
+      "strict": true,
+      "allowJs":false,
+      "noImplicitThis":true,
+      "strictNullChecks":true,
+      "removeComments":true,
+      "noImplicitAny": true,
+      "noImplicitReturns":true,
+      "noUncheckedIndexedAccess":true,
+      "noUnusedLocals":true,
+      "noUnusedParameters":true,
+      "allowUnreachableCode":false,
+      "allowUnusedLabels":false,
+      "target": "es6"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
