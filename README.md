@@ -8,4 +8,4 @@ Nodejs CLI with TypeScript
 4. run `npm init` command and provide project specific information.
 5. Install typescript locally using following command:
    
-   npm install --save-dev typescript tslint @types/node
+   `npm install --save-dev typescript tslint @types/node`
