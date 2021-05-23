@@ -59,3 +59,25 @@ Nodejs CLI with TypeScript
     }
   }
    `
+8. Now add typescript build command into *package.json* as given below:
+  `
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --outDir bin"
+  }
+  `
+9. To run the above script use `npm run build` command. This will create a folder called bin and the compiled javascript will be placed there.
+
+10. To inform npm that there is a command line executable available in the node module we have to add the following section.
+  
+  `
+  "bin": {
+    "mycli": "./bin/main.js"
+}
+  `
+
+11. For command line start `npm start` use the following code inside "scripts" tag:
+`
+ "start": "node main.js"
+`
+
