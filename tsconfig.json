@@ -17,6 +17,8 @@
       "noUnusedParameters":true,
       "allowUnreachableCode":false,
       "allowUnusedLabels":false,
+      "resolveJsonModule": true,
+      "moduleResolution": "node",
       "target": "es6"
     },
     "include": ["src/**/*"],
