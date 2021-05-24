@@ -76,8 +76,15 @@ Nodejs CLI with TypeScript
 }
   `
 
-11. For command line start `npm start` use the following code inside "scripts" tag:
+11. For command line start `npm run start` use the following code inside "scripts" tag:
 `
  "start": "node main.js"
 `
 
+12. Let's create an npm script using ts-node `npm run dev` by using following code inside "scripts" tag:
+`
+ "dev": "ts-node src/main.ts"
+`
+
+13. Next, let's make our index.ts runnable by telling the shell how to run it:
+    #!/usr/bin/env node
